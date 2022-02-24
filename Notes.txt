@@ -1,0 +1,27 @@
+﻿Remplacer "([a-z0-9 A-Zàóçâèéùôäíãë':Àê!]+) par "
+Remplacer {([0-9]+) par {
+Remplacer {,([0-9]+) par {,
+Remplacer "" par "(None)"
+Remplacer {,,0,0 par {,,1,4
+Remplacer "(Sans commentaire)" par "(No Comment)"
+
+	do
+	{
+		_iRes = sqlite3_exec(hCfeDb,_szTmp,0,0,&_lpszError) ;
+	} while(_iRes == SQLITE_BUSY) ;
+
+	if(_iRes == SQLITE_OK)
+		Log("Asteroid name freed") ;
+	else
+	{
+		Log(_lpszError) ;
+		Log(Get_SQLite_Error(_szError)) ;
+
+		Log("Error while freeing asteroid name") ;
+		Log("This asteroid will not be used because [FreeStar] flag is equal to '0'") ;
+		Log("The user must set this field to '1'") ;
+
+		return (Error(81)) ;
+	}
+
+

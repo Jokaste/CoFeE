@@ -1,0 +1,29 @@
+﻿Cfe2 est un logiciel, Français, permettant la création de filtres de convolution.
+Cfe2 parle Français, anglais, allemand, italien et espagnol.
+Cfe2 est autorise des filtres allant de 3x3 jusqu'à 29x29.
+Cfe2 possède son propre diaporama.
+L'éditeur de filtre possède 18 fonctionnalités comme les mirroirs, les décallages ainsi que les rotations.
+Il n'y a pas de menus, toutes les commandes sont accessibles directement à la souris.
+Lorsqu'un filtre est créé, vous pouvez lui attribuer une note allant de 1 à 5 étoiles.
+Cfe2 est portable, cela signifie qu'il n'utilise pas la base registres,
+Cfe2 possède son propre fichier de configuration.
+En plus des classiques Copier/Coller Cfe2 offre 16 niveaux d'annulation.
+Cfe2 est fourni avec un certain nombre de filtres pré-définis.
+L'auteur de CFE apprécierait un don de 10 Euros, pas plus.
+---------------------------------------------------------------------
+CFE is a program written in pure C language.
+CFE is a postcardware.
+Cfe is a software, allowing the creation of convolution filters.
+CFE speaks French, English, German, Italian and Spanish.
+CFE allows filters ranging from 3x3 up to 29x29.
+CFE has its own slideshow.
+The filter editor has 18 features such as mirrors, shiftings and rotations.
+There are no menus, all commands are directly accessible with the mouse.
+When a filter is created, you can give it a rating ranging from 1 to 5 stars.
+CFE is portable, that means it doesn't use the registry,
+CFE accepts Drag'n Drop.
+CFE has its own configuration file.
+In addition to the classic Copy/Paste Cfe offers 16 levels of undo.
+CFE comes with more than 500 of pre-defined filters.
+CFE author would appreciate a donation of 10 Euros, no more.
+---------------------------------------------------------------------
